@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "stripInternal": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["src/**/__tests__", "src/**/__stories__"]
+}

@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "interface-name": false,
+    "no-any": true,
+    "no-implicit-dependencies": [
+      false,
+      "optional"
+    ],
+    "ordered-imports": false,
+    "no-namespace": false,
+    "object-literal-sort-keys": false,
+    "callable-types": true,
+    "arrow-return-shorthand": true,
+    "jsx-boolean-value": false
+  },
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "include": [
+      "./src/**/*.{ts,tsx}"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ]
+  }
+}

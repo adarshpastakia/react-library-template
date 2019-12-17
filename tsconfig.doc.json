@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "noResolve": false,
+    "importHelpers": true,
+    "lib": ["dom", "es5", "es6", "esnext"]
+  },
+  "exclude": ["node_modules", "lib", "es"]
+}
